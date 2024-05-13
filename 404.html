@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+                <style>
+                    :root {
+                        --body-background-color: #f5f5f5;
+                        --body-background: linear-gradient(to bottom, #f5f5f5 5%, white 100%);
+                        --text: #130f0e;
+                    }
+                    body, html {
+                        height: 100%;
+                        margin: 0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-image: var(--body-background);
+                        background-color: var(--body-background-color);
+                        color: var(--text);
+                        font-family: system-ui;
+                    }
+
+                    /* Media query for dark mode */
+                    @media (prefers-color-scheme: dark) {
+                        :root {
+                            --body-background: linear-gradient(to bottom, #161616 5%, black 100%);
+                            --body-background-color: #161616;
+                            --text: #ecf0f1;
+                        }
+                    }
+                </style>
+    </head>
+    <body>
+        <h1>Gone ¯\_(ツ)_/¯</h1>
+    </body>
+</html>
